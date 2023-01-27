@@ -38,6 +38,13 @@ def product(*args):
 
 
 def average(*args):
-    pass
+    num = 0
+    n = 0
+
+    for arg in args:
+        num += arg
+        n = n+1
+    return num/n
+    
 
 fib(10)

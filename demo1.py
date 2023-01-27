@@ -26,12 +26,14 @@ def fact(n):
 
 
 def sum(*args):
+    
     pass
 
     # create a function that calculates the product of the given numbers
 
 
 def product(*args):
+
     pass
 
     # create a function that calculates the average of the given numbers

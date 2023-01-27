@@ -1,12 +1,15 @@
 # create a function that calculates fibonacci number at the given index
 
 def fib(n):
-
+    
     # create a function that calculates factorial of the given number
 
 
 def fact(n):
-
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n*fact(n-1)
     # create a function that calculates the sum of the given numbers
 
 
